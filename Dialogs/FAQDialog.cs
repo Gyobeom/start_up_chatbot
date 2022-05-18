@@ -14,8 +14,8 @@ namespace GreatWall
 {
     [Serializable]
     //[QNAMakerService(Host, EndpoingKey, Knowledgebases, MaxAnsers = 0)]
-    [QnAMakerService(" https://greatwallqnabrian.azurewebsites.net/qnamaker", "582be1eb-515c-49f8-8417-5f41d7520c95"
-        , "a84cabce-ace1-4ecc-b15f-5b360e3e790c", MaxAnswers = 5)]
+    [QnAMakerService(" https://greatwallqna-brian.azurewebsites.net/qnamaker", "6a3cd7b9-c816-42f7-92e2-cc8f394710fc"
+        , "cd6a8dc3-cd97-4dbf-a994-8b0633a83ad5", MaxAnswers = 5)]
 
     public class FAQDialog : QnAMakerDialog<string>
     {
